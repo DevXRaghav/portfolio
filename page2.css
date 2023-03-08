@@ -1,0 +1,38 @@
+.page2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.page2-image {
+  width: 539px;
+  height: 1315px;
+  align-self: stretch;
+  object-fit: cover;
+}
+.page2-text {
+  width: 646px;
+  height: 1316px;
+  align-self: flex-end;
+}
+@media(max-width: 991px) {
+  .page2-image {
+    height: 1289px;
+  }
+}
+@media(max-width: 767px) {
+  .page2-image {
+    width: 418px;
+  }
+  .page2-text {
+    width: 385px;
+  }
+}
+@media(max-width: 479px) {
+  .page2-image {
+    width: 118px;
+  }
+}
