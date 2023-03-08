@@ -1,9 +1,0 @@
-.icon-container {
-  display: flex;
-  position: relative;
-}
-.icon-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
